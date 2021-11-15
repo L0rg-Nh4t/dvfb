@@ -1,0 +1,25 @@
+RewriteEngine On
+
+ErrorDocument 404 /404.php
+
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteRule ^home$ /index.php [L]
+
+RewriteRule ^login$ /login.php [L]
+
+RewriteRule ^register$ /register.php [L]
+
+RewriteRule ^profile$ /profile.php [L]
+
+RewriteRule ^Mua-Like-Post$ /mualike.php [L]
+RewriteRule ^Mua-Follow$ /muafollow.php [L]
+RewriteRule ^Mua-Like-Page$ /muapage.php [L]
+RewriteRule ^Mua-Comment$ /muacmt.php [L]
+
+
+RewriteRule ^Momo$ /napmomo.php [L]
+RewriteRule ^Thesieure$ /naptsr.php [L]
+RewriteRule ^The-cao$ /napcard.php [L]
+RewriteRule ^ATM$ /nap-atm.php [L]

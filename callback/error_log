@@ -1,0 +1,5 @@
+[16-May-2021 09:29:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: site_domain in /home/muasubng/public_html/config.php on line 12
+[16-May-2021 09:29:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: site in /home/muasubng/public_html/config.php on line 228
+[16-May-2021 09:33:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: site_domain in /home/muasubng/public_html/config.php on line 12
+[16-May-2021 09:33:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: site in /home/muasubng/public_html/config.php on line 228
+[18-May-2021 14:29:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: site in /home/muasubng/public_html/config.php on line 240
